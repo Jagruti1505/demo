@@ -1,0 +1,28 @@
+
+const Util = require('../config/dataHandler.js');
+
+describe('<enter scenario name>', () => {
+
+    it('<Enter test case details>', async () => {
+
+        //Please paste the recorded script over here
+    const el11 = await driver.$("xpath://androidx.compose.ui.platform.ComposeView/android.view.View/android.view.View/android.view.View[6]");
+    await el11.click();
+    const el12 = await driver.$("accessibility id:close");
+    await el12.click();
+    const el13 = await driver.$("xpath://androidx.compose.ui.platform.ComposeView/android.view.View/android.view.View/android.view.View[4]/android.widget.Button");
+    await el13.click();
+    const el14 = await driver.$("id:my.yes.yes4g:id/edtLoginYesID");
+    await el14.addValue(U.B.username);
+    const el15 = await driver.$("id:my.yes.yes4g:id/loginUsingPasswordLayout");
+    await el15.click();
+    const el16 = await driver.$("id:my.yes.yes4g:id/edtLoginPassword");
+    await el16.addValue(U.B.password);
+    const el17 = await driver.$("id:my.yes.yes4g:id/loginLayout");
+    await el17.click();
+    Util.F.ClickIfVisible("id:com.android.permissioncontroller:id/permission_allow_button")
+    const el19 = await driver.$("id:my.yes.yes4g:id/ivClose");
+    await el19.click();
+    
+    });
+});
