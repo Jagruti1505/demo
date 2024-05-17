@@ -1,0 +1,25 @@
+const Util = require('../config/dataHandler.js');
+
+describe('<enter scenario name>', () => {
+
+  it('<Enter test case details>', async () => {
+
+    //Please paste the recorded script over here
+    Util.F.ClickIfVisible("xpath://XCUIElementTypeAlert[@name=\"“MyYes” Would Like to Send You Notifications\"]/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther[2]/XCUIElementTypeScrollView[2]/XCUIElementTypeOther[1]/XCUIElementTypeOther/XCUIElementTypeOther[3]");
+
+    const el5 = await driver.$("xpath://XCUIElementTypeButton[@name=\"LOGIN\"]");
+    await el5.click();
+    const el6 = await driver.$("class name:XCUIElementTypeTextField");
+    await el6.addValue("01117316228@YES.MY");
+    const el7 = await driver.$("xpath://XCUIElementTypeScrollView/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther[2]/XCUIElementTypeOther[1]/XCUIElementTypeButton");
+    await el7.click();
+    const el8 = await driver.$("class name:XCUIElementTypeSecureTextField");
+    await el8.addValue("password123");
+    const el9 = await driver.$("accessibility id:Identifier_Login");
+    await el9.click();
+    const el10 = await driver.$("accessibility id:CloseBlack");
+    await el10.click();
+    const el11 = await driver.$("xpath://XCUIElementTypeButton[@name=\"More\"]");
+    await el11.click();
+  });
+});
