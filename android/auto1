@@ -1,2 +1,9 @@
-Project Name*,Build,Module,]Test Scenario ID*,Requirement,Post-Conditions,Test Case Name*,Test Case Summary*,Test Status*,Testing Type,Priority,Task Board,Detail Steps*,Pre Condition,Execution Type,Expected Result*,Estimated Time,New Pre Condition
-Froth,,,,,,,,,,,,,,,,,
+Test Scenario Id,Project Name,Build,Module,Requirement,Test Scenario,Description,Created By,Created Date
+TS-1.1,Froth,Build-1.0,Create,Business,Bug,Done,Nishmitha H D,19-04-24
+TS-1.2,Froth,Build-1.0,Create,Business,Story,Pending,Nishmitha H D,19-04-24
+TS-1.3,Froth,,,,,Done,Nishmitha H D,19-04-24
+TS-1.4,Froth,,,,,Pending,Nishmitha H D,19-04-24
+TS-1.5,Froth,,,,,Done,Nishmitha H D,19-04-24
+TS-1.6,Froth,,,,,Pending,Nishmitha H D,19-04-24
+TS-1.7,Froth,,,,,Done,Nishmitha H D,19-04-24
+TS-1.8,Froth,,,,,Pending,Nishmitha H D,19-04-24
