@@ -1,0 +1,16 @@
+const deepmerge = require('deepmerge')
+const iosconfig = require('froth-webdriverio-framework/config/ios.conf.js');
+
+const specconfig  = deepmerge.all([iosconfig, {
+    specs: [
+    [
+        '../web/test script  demo  test  01.js',
+        '../web/test script demo test.js',
+        '../web/test script.js'
+    ]
+],
+} 
+]);
+module.exports.config = specconfig;
+
+  
