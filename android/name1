@@ -1,0 +1,4 @@
+// Define a variable
+let greeting = "Hello, world!";
+
+
