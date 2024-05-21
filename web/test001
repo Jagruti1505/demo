@@ -3,7 +3,7 @@ const deepmerge = require('deepmerge')
 const webconfig = require('froth-webdriverio-framework/config/web.conf.bs');
 
 const specconfig = deepmerge.all([webconfig, {
-    specs: [[ "../web/divyesh_script.js", "../web/divyesh_script.js", "../web/AS-2.js" ]]
+    specs: [[ "../web/divyesh_script.js", "../web/AS-2.js", "../web/automation2.js" ]]
 }
 ]);
 
