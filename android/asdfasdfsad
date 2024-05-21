@@ -1,0 +1,1 @@
+/* To scroll to the left of the screen  Parameter :  Steps -integer : in how many steps it will scroll to left  Example : Util.F.ScrollToLeft(1); */ Util.F.ScrollToLeft(<steps>);
