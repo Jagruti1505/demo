@@ -1,0 +1,11 @@
+
+const Util = require('../config/dataHandler.js');
+
+describe('<enter scenario name>', () => {
+
+    it('<Enter test case details>', async () => {
+
+        /*To click on the element if visible else skip  Parameter : Element xpath : recorded element id, class, xpath  Example:      Util.F.ClickIfVisible("id:com.android.permissioncontroller:idprmission_allow_button”)  */  Util.F.ClickIfVisible("<xpath of  elemnt >")
+
+    });
+});
