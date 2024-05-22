@@ -3,7 +3,7 @@ const deepmerge = require('deepmerge')
 const androidconfig = require('froth-webdriverio-framework/config/android.conf.js');
 
 const specconfig = deepmerge.all([androidconfig, {
-    specs: [[ "../android/demo-test2.js", "../android/Demo-test.js", "../android/shashank jha.js", "../android/demo-test2.js", "../android/Demo-test.js", "../android/shashank jha.js", "../android/shashank.js" ]]
+    specs: [[ "../android/demo-test2.js", "../android/Demo-test.js", "../android/demo-test2.js", "../android/Demo-test.js", "../android/shashank jha.js", "../android/shashank.js" ]]
 }
 ]);
 
