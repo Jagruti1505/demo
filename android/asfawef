@@ -1,0 +1,13 @@
+const Util = require('../config/dataHandler.js');
+
+describe('<enter scenario name>', () => {
+
+  it('<Enter test case details>', async () => {
+
+    //Please paste the recorded script over here
+    /*To scroll to the end of the screen  Parameter :  maxSwipes - integer : how many swipes you need Steps -integer : in how many steps it will scroll to end  Example : Util.F.ScrollToEnd(1,3); */
+    Util.F.ScrollToEnd( < maxswipes > , < steps > );
+    /*To click on the element if visible else skip  Parameter : Element xpath : recorded element id, class, xpath  Example:      Util.F.ClickIfVisible("id:com.android.permissioncontroller:idprmission_allow_button”)  */
+    Util.F.ClickIfVisible("<xpath of  elemnt >")
+  });
+});
