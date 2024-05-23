@@ -1,0 +1,15 @@
+// iOS Suite: Login and Logout Suite
+const deepmerge = require('deepmerge')
+const androidconfig = require('froth-webdriverio-framework/config/android.conf.js');
+
+const specconfig = deepmerge.all([androidconfig, {
+    specs: [
+    [
+        
+    ]
+]
+}
+]);
+
+module.exports.config = specconfig;
+
